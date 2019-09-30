@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles_Main/styles.css">
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <title>Cs-PlayGround</title>
+</head>
+
+<body>
+
+    <div class="mainMenuHolder">
+        <div id="skullIconHolder" class="mainMenuIconHolder">
+            <div class="SVGHolder">
+                <object id="skullSVG" class="mainMenuIconSVG" data="content/main/skull_small_01.svg"
+                    type="image/svg+xml"></object></div>
+            <div id="clickIconSkull" class="clickIcons" onclick="openAbout()"></div>
+        </div>
+        <div id="burgerIconHolder" class="mainMenuIconHolder">
+            <div class="SVGHolder">
+                <object id="burgerSVG" class="mainMenuIconSVG" data="content/main/menu_burger_01.svg"
+                    type="image/svg+xml"></object></div>
+            <div id="clickIconBurger" class="clickIcons" onclick="openMenu()"></div>
+        </div>
+    </div>
+
+    <div id="navMenuHolder">
+        <div id="navMenu">
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem" onclick="loadPage01()"> item 1 </div>
+            </div>
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem" onclick="loadPage02()"> item 2 </div>
+            </div>
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem" onclick="loadPage03()"> item 3 </div>
+            </div>
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem" onclick="loadPage04()"> item 4 </div>
+            </div>
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem" onclick="loadPage01()"> item 5 </div>
+            </div>
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem"> item 2 </div>
+            </div>
+            <div class="navMenuItemHolder">
+                <div class="navMenuItem"> item 2 </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="aboutWindowHolder">
+        <div id="aboutWindow">
+            <object id="bigSkullSVG" data="content/main/skull_big_01.svg" type=""></object>
+        </div>
+    </div>
+    <div id="pageHolder">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+</body>
+
+</html>
